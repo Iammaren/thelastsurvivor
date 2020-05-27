@@ -1,0 +1,253 @@
+/*****************************************************
+GENERAL
+*****************************************************/
+
+body {
+  font-family: 'Coda', cursive;
+}
+
+#wrapper {
+  
+  margin-left:250px;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+
+/****************************************************
+HEADING
+*****************************************************/
+
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Khand', sans-serif;
+  margin: 15px 0;
+  font-size: 3.5em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 40;
+  margin: -5px 0 0;
+  font-weight: normal;
+  font-family:'Libre Barcode 128 Text';
+
+}
+
+
+/****************************************************
+NAVIGATION
+*****************************************************/
+
+nav {
+  text-align: center;
+  padding: 30px 0;
+  margin: 20px 0 0;
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  font-size: 1.5em;
+  padding: 10px 10px;
+}
+
+/****************************************************
+FOOTER AND SECTION
+*****************************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: white;
+  margin-right: 250px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  border-radius: 15px;
+}
+.centrage {
+  text-align: center;
+}
+
+div.a {
+    text-align: center;
+}
+
+div.bcenter {
+  text-align: center;
+}
+
+
+
+
+/****************************************************
+PAGE : ACCUEIL
+*****************************************************/
+
+#accueil {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+#print {
+  border-radius: 10px;
+  position: static;
+}
+
+
+#accueil li {
+  float: left;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #111475;
+  color: blue;
+  border-radius: 10px;
+}
+
+#accueil li a p {
+  margin: 0 auto;
+  padding: 5%;
+  font-size: 1.3em;
+  color: white;
+}
+
+
+/*****************************************************
+PAGE: ABOUT
+*****************************************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100px;
+}
+
+
+/*****************************************************
+COLORS
+*****************************************************/
+
+
+/* site body */
+body {
+  background-color: #070827;
+  color: #ccc;
+}
+
+/* green header */
+header {
+  background: #111475;
+  border-color: white;
+  border-radius: 10px;
+}
+
+
+/* nav background on mobile */
+nav {
+  background: #0E105A;
+  border-radius: 10px;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+
+/* nav link */
+nav a, nav a:visited {
+  color: white;
+}
+
+/* selected nav link */
+nav a:hover {
+  color: #5E61EC;
+}
+
+.slider {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .slides {
+    width: calc(500px * 3);
+    animation: glisse 10s infinite;
+  }
+  .slide {
+    float: left;
+  }
+
+  @keyframes glisse {
+    0% {
+      transform: translateX(0);
+    }
+    10% {
+      transform: translateX(0);
+    }
+    33% {
+      transform: translateX(-500px);
+    }
+    43% {
+      transform: translateX(-500px);
+    }
+    66% {
+      transform: translateX(-1000px);
+    }
+    76% {
+      transform: translateX(-1000px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
